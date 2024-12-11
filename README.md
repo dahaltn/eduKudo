@@ -7,6 +7,7 @@ This task, created by **Tej Dahal**, is a Laravel-based project utilizing Inerti
 > **Note:** Docker and Docker Compose are required to run this application.
 
 # Tasks Overview
+- [Task Demo link](http://146.190.197.18/)
 
 ## Task 1: Parent and Child Components
 - Created a parent component with two variables:
@@ -53,7 +54,7 @@ Ensure you have Docker and Docker Compose installed on your system before procee
 #### Clone the Repository
 
 ```bash
-git clone git@github.com:dahaltn/eduKudo.git
+git clone https://github.com/dahaltn/eduKudo.git
 cd ./eduKudo
 
 ```
@@ -105,9 +106,6 @@ Run sail build --no-cache to build fresh containers.
 
 *Note: No need to run this command if you have already build images.*
 
-```bash
-sail build --no-cache
-```
 Run containers
 ```bash
 sail up -d
