@@ -36,6 +36,9 @@ This task, created by **Tej Dahal**, is a Laravel-based project utilizing Inerti
 ### LESS Editor
 - `resources/js/EduKudoComponents/LessEditorComponent.vue`
 
+### Final result screenshot
+![Final result](public/images/final_result_screenshot.png "Final result screenshot")
+
 ---
 
 ## Installation Guide
