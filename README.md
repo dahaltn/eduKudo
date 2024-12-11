@@ -1,9 +1,40 @@
 # EduKUDO Task
 
+
 > **Introduction**  
 This task, created by **Tej Dahal**, is a Laravel-based project utilizing Inertia.js, Vue.js 3, Vite.js, Docker, and Sail. Follow the guide below to set up the application.
 
 > **Note:** Docker and Docker Compose are required to run this application.
+
+# Tasks Overview
+
+## Task 1: Parent and Child Components
+- Created a parent component with two variables:
+    - A boolean
+    - A string
+- Child component:
+    - Toggles the boolean value.
+    - Updates the string via a text box.
+- Used props and events for communication between parent and child components.
+
+## Task 2: LESS Compiler and Live Preview
+- Built a real-time editor with:
+    - Input for HTML and LESS.
+    - Live LESS compilation (debounced).
+    - Isolated preview area with scoped styles.
+- Preview dynamically updates based on inputs.
+
+## Files
+
+### Main Component
+- `resources/js/Pages/Welcome.vue`
+
+### Parent and Child Components
+- `resources/js/EduKudoComponents/ParentComponent.vue`
+- `resources/js/EduKudoComponents/ChildComponent.vue`
+
+### LESS Editor
+- `resources/js/EduKudoComponents/LessEditorComponent.vue`
 
 ---
 
